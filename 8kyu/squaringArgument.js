@@ -1,0 +1,1 @@
+const square = (el) => el ** 2
