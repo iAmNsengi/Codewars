@@ -8,3 +8,4 @@ function sortReindeer(reindeerNames) {
     .sort((a, b) => (a[1] < b[1] ? -1 : 1))
     .map((i) => i[0] + " " + i[1]);
 }
+ 
