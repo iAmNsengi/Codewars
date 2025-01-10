@@ -1,4 +1,4 @@
-var humanYearsCatYearsDogYears = function (humanYears) {
+const humanYearsCatYearsDogYears =  (humanYears) => {
   if (humanYears === 1) return [humanYears, 15, 15];
   if (humanYears === 2) return [humanYears, 24, 24];
 
