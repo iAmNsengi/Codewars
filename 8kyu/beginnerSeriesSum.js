@@ -1,6 +1,5 @@
-function getSum(a, b) {
+const getSum = (a, b) =>  {
     let sum = 0;
-    console.log(a, b)
     if (a <= b) {
         while (a <= b) {
             sum += a
@@ -12,6 +11,5 @@ function getSum(a, b) {
         sum += a
         a = a - 1;
     }
-    console.log('here')
     return sum
 }
